@@ -2,13 +2,13 @@
 
     <div class="dev-div hp-jb-div margin-bottoms-1x">
 
-        <div class="text-size-2x margin-bottoms-zx-plus">
+        <div class="text-size-1x margin-bottoms-zx-plus">
             <span>Télécharger la plaquette</span>
         </div>
 
         <div class="hp-right-joboffer-div dev-color-grey bordered">
 
-            <!-- Image de profile de la plaquette -->
+            <img />
 
             <div class="align-center">
                 <a href="#" class="btn-hp-primary text-unerderline text-size-zx text-uppercase">
