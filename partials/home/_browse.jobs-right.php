@@ -2,7 +2,7 @@
 
     <div class="dev-div hp-jb-div margin-bottoms-1x">
 
-        <div class="text-size-1x margin-bottoms-zx-plus">
+        <div class="text-size-1x margin-bottoms-zx-plus dev-color-blue">
             <span>Télécharger la plaquette</span>
         </div>
 
@@ -22,7 +22,7 @@
 
     <div class="dev-div hp-jb-div margin-bottoms-1x">
 
-        <div class="text-size-2x margin-bottoms-zx-plus">
+        <div class="text-size-1x margin-bottoms-zx-plus dev-color-blue">
             <span>Stats de CV</span>
         </div>
 

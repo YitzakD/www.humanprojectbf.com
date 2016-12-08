@@ -70,16 +70,32 @@
 /*------ HOME       About Job offer | Plaquette | CV stats -----*/
 .hp-joboffer-div {
     width: 100%;
-    height: 80px;
+    min-height: 17px;
     display: block;
     border-top: 1px solid #BDC3C7;
-    padding: 25px 0;
+    padding: 10px 0 10px;
     text-decoration: none;
     color: #222222;
 }
 .hp-joboffer-div:hover {
     background-color: #EFEFEF;
 }
+.hp-joboffer-div  div.hp-job-name {
+    width: 250px;
+}
+.hp-joboffer-div  div.hp-job-postdate {
+    width: 100px;
+}
+.hp-joboffer-div  div.hp-job-location {
+    width: 160px;
+}
+.hp-joboffer-div  div.hp-job-joboffer {
+    width: 120px;
+}
+.hp-joboffer-div  div.hp-job-count {
+    width: 40px;
+}
+
 .hp-right-joboffer-div {
     padding: 25px 0;
 }
