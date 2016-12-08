@@ -7,41 +7,14 @@
         <div class="c-div-block">
             <a href="#" class="c-span-floted float-left align-center text-size-2x text-unerderline">
                 <p>
-                    <i class="fa fa-heartbeat"></i>
-                    <span class="text-uppercase text-size-zx">santé</span>
+                    <i class="fa fa-money"></i>
+                    <span class="text-uppercase text-size-zx">commerce général</span>
                 </p>
             </a>
             <a href="#" class="c-span-floted float-left align-center text-size-2x text-unerderline">
                 <p>
-                    <i class="fa fa-car"></i>
-                    <span class="text-uppercase text-size-zx">convoiturage</span>
-                </p>
-            </a>
-            <a href="#" class="c-span-floted float-left align-center text-size-2x text-unerderline">
-                <p>
-                    <i class="fa fa-signal"></i>
-                    <span class="text-uppercase text-size-zx">télécommunication</span>
-                </p>
-            </a>
-            <a href="#" class="c-span-floted float-left align-center text-size-2x text-unerderline">
-                <p>
-                    <i class="fa fa-cutlery"></i>
-                    <span class="text-uppercase text-size-zx">restauration</span>
-                </p>
-            </a>
-        </div>
-
-        <div class="c-div-block">
-            <a href="#" class="c-span-floted float-left align-center text-size-2x text-unerderline">
-                <p>
-                    <i class="fa fa-building-o"></i>
-                    <span class="text-uppercase text-size-zx">construction</span>
-                </p>
-            </a>
-            <a href="#" class="c-span-floted float-left align-center text-size-2x text-unerderline">
-                <p>
-                    <i class="fa fa-bar-chart-o"></i>
-                    <span class="text-uppercase text-size-zx">finance</span>
+                    <i class="fa fa-pie-chart"></i>
+                    <span class="text-uppercase text-size-zx">industriel</span>
                 </p>
             </a>
             <a href="#" class="c-span-floted float-left align-center text-size-2x text-unerderline">
@@ -52,8 +25,20 @@
             </a>
             <a href="#" class="c-span-floted float-left align-center text-size-2x text-unerderline">
                 <p>
-                    <i class="fa fa-paint-brush"></i>
-                    <span class="text-uppercase text-size-zx">multimedia</span>
+                    <i class="fa fa-fire"></i>
+                    <span class="text-uppercase text-size-zx">hydrocarbures</span>
+                </p>
+            </a>
+            <a href="#" class="c-span-floted float-left align-center text-size-2x text-unerderline">
+                <p>
+                    <i class="fa fa-youtube-play"></i>
+                    <span class="text-uppercase text-size-zx">événementiel</span>
+                </p>
+            </a>
+            <a href="#" class="c-span-floted float-left align-center text-size-2x text-unerderline">
+                <p>
+                    <i class="fa fa-truck"></i>
+                    <span class="text-uppercase text-size-zx">transport et mine</span>
                 </p>
             </a>
         </div>
