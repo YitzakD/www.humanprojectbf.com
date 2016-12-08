@@ -1,0 +1,156 @@
+.sl-content{
+    max-width: 980px;
+    margin: auto
+}
+.sl-container:after{
+    content: "";
+    display: table;
+    clear: both
+}
+.sl-container{padding: 0.01em 16px}
+.sl-padding-16{
+    padding-top: 16px!important;
+    padding-bottom: 16px!important
+}
+.sl-black,.sl-hover-black:hover{
+    color: #FFFFFF!important;
+    background-color: #000000!important
+}
+.sl-display-container{position: relative}
+.sl-center{text-align: center!important}
+.sl-section{
+    margin-top: 10px!important;
+    margin-bottom: 10px!important
+}
+.sl-large{font-size: 18px!important}
+.sl-text-white,.sl-hover-text-white:hover{color: #FFFFFF!important}
+.sl-display-bottomleft{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.sl-display-bottomright{
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+.sl-display-topleft{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.sl-display-topright{
+    position: absolute;
+    right: 0;
+    top: 0
+}
+.sl-left{
+    float: left!important
+}
+.sl-right{
+    float: right!important
+}
+.sl-margin-top{margin-top: 175px!important}
+.sl-margin-bottom{margin-bottom: 150px!important}
+.sl-padding-left{padding-left: 25px!important}
+.sl-padding-right{padding-right: 25px!important}
+.sl-hover-text-ivp{
+    -webkit-transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
+    transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s
+}
+.sl-hover-text-ivp:hover{color: #39B54A!important}
+.sl-badge{
+    color: #FFFFFF;
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+    border: 1px  solid;
+}
+.sl-border{border: 1px solid #FFFFFF!important}
+.sl-transparent{background-color: transparent!important}
+.sl-hover-ivp{
+    -webkit-transition: background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
+    transition: background-color .3s,color .15s,box-shadow .3s,opacity 0.3s
+}
+.sl-ivp{
+    color: #39B54A!important;
+    background-color: #39B54A!important
+}
+.sl-white{
+    color: #000000!important;
+    background-color: #FFFFFF!important
+}
+.sl-hover-ivp:hover{
+    color: #000000!important;
+    background-color: #39B54A!important
+}
+.sl-animate-fading{
+    -webkit-animation: fading 10s infinite;
+    animation: fading 10s infinite
+}
+@-webkit-keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+.sl-animate-opacity{
+    -webkit-animation: opac 1.5s;
+    animation: opac 1.5s
+}
+@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.sl-animate-top{
+    position: relative;
+    -webkit-animation: animatetop 0.4s;
+    animation: animatetop 0.4s
+}
+@-webkit-keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+
+.sl-animate-left{
+    position: relative;
+    -webkit-animation: animateleft 0.4s;
+    animation: animateleft 0.4s
+}
+@-webkit-keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+.sl-animate-right{
+    position: relative;
+    -webkit-animation: animateright 0.4s;
+    animation: animateright 0.4s
+}
+@-webkit-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+.sl-animate-bottom{
+    position: relative;
+    -webkit-animation: animatebottom 0.4s;
+    animation: animatebottom 0.4s
+}
+@-webkit-keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0px;opacity:1}}
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+.sl-animate-zoom {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom{from{-webkit-transform:scale(0)} to{-webkit-transform:scale(1)}}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+
+/* .mySlides {display: none} */
+.mySlides > span {
+    display: block;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    color: #ECF0F1;
+    line-height: 300px;
+}
+.sl-left, .sl-right, .sl-badge {cursor: pointer}
+.sl-badge {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    padding: 0
+}

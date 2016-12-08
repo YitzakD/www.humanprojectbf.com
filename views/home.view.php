@@ -1,0 +1,39 @@
+<?php $title = $menu['home'][$_SESSION['locale']]; ?>
+<?php include("partials/_header.php"); ?>
+
+<div class="dev-wrap">
+
+    <div class="dev-col-max-big-plus no-margin relatived">
+        <?php include "partials/home/_banners.php"; ?>
+    </div>
+
+    <div class="clearer margin-top-lg"></div>
+
+    <div class="dev-col-max-big-plus no-margin relatived">
+        <?php include "partials/home/_browse.category.php"; ?>
+    </div>
+
+    <div class="clearer margin-top-lg"></div>
+
+    <div class="dev-col-max-big-plus no-margin relatived">
+        <div class="hp-block no-margin dev-bgc-danger">
+            <?php include "partials/home/_browse.jobs-left.php"; ?>
+            <?php include "partials/home/_browse.jobs-right.php"; ?>
+        </div>
+    </div>
+
+    <div class="clearer margin-top-2x"></div>
+
+    <div class="dev-col-max-big-plus no-margin relatived">
+        <?php include "partials/home/_browse.testimonials.php"; ?>
+    </div>
+
+    <div class="clearer margin-top-2x"></div>
+
+    <div class="dev-col-max-big-plus no-margin relatived">
+        <?php include "partials/home/_browse.patners.php"; ?>
+    </div>
+
+    <div class="clearer margin-top-2x"></div>
+
+<?php include("partials/_footer.php"); ?>
