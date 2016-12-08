@@ -8,11 +8,11 @@
 
         <div class="hp-right-joboffer-div dev-color-grey bordered">
 
+            <!-- Image de profile de la plaquette -->
 
-
-            <div class="align-center margin-bottoms-zx">
+            <div class="align-center">
                 <a href="#" class="btn-hp-primary text-unerderline text-size-zx text-uppercase">
-                    Postuler pour cet emploi
+                    Télécharger la plaquette
                 </a>
             </div>
 
