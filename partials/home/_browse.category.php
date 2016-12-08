@@ -1,8 +1,8 @@
 <div class="hp-block no-margin">
 
-    <div class="dev-div hp-c-div margin-bottoms-1x">
+    <div class="dev-div hp-c-div margin-bottoms-1x margin-top-zx">
 
-        <div class="blocked text-capitalize text-size-2x margin-bottoms-zx-plus">catégories</div>
+        <div class="blocked text-capitalize dev-color-blue text-size-2x margin-bottoms-zx-plus">catégories</div>
 
         <div class="c-div-block">
             <a href="#" class="c-span-floted float-left align-center text-size-2x text-unerderline">
