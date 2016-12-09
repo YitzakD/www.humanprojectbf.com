@@ -24,7 +24,7 @@ $(document).ready(function(){
 
     showDivs(slideIndex);
     carousel();
-
+    
     function showDivs(n) {
         var i;
         var x = document.getElementsByClassName("mySlides");
