@@ -1,4 +1,4 @@
-<div class="dev-col-min-big float-left">
+<div class="dev-div">
 
     <div class="dev-div hp-jb-div margin-bottoms-1x margin-top-zx">
 
