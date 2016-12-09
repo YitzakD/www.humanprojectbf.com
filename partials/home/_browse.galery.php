@@ -2,76 +2,50 @@
 
     <div class="dev-div hp-c-div margin-bottoms-1x">
 
-        <div class="blocked text-capitalize text-size-2x dev-color-blue">Témoignages</div>
+        <div class="blocked text-capitalize text-size-2x dev-color-blue">Galerie</div>
 
     </div>
 
     <div class="clearer"></div>
 
-    <div class="hp-test-slide">
+    <div class="hp-gal-slide">
 
-        <div class="sl-content sl-display-container" style="max-width:100%">
+      <div class="sl-content sl-display-container" style="max-width:100%">
 
-            <div class="sl-display-container mySlides sl-animate-opacity">
-                <table class="daf-table hp-table">
-                    <tr><td></td></tr>
-                    <tr>
-                        <td class="text-size-lg dev-color-grey align-center">
-                            <i class="fa fa-quote-left fa-rotate-left"></i>&nbsp;
-                            Est-il possible de lire un livre de 200 pages en 30 minutes ? Vaste question à laquelle je m’attèle aujourd’hui.
-                            <span class="blocked margin-top-zx dev-color-white text-size-zx">
-                                Yitzak DEKPEMOU, Web developer
-                            </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                    </tr>
-                </table>
-            </div>
+          <div class="sl-display-container mySlides sl-animate-opacity">
+              <img src="assets/media/contents/galery/1+.png" style="width:100%">
+              <div class="sl-display-bottomleft align-center margin-top-lg sl-container sl-padding-5 hp-bgc-blue dev-color-white">
+                  <p>
+                      Formation des cadres du SEFAC
+                      <span>Ouagadougou - 11 au 14 Février 2015</span>
+                  </p>
+              </div>
+          </div>
+          <div class="sl-display-container mySlides sl-animate-opacity">
+              <img src="assets/media/contents/galery/2+.png" style="width:100%">
+              <div class="sl-display-bottomleft align-center margin-top-lg sl-container sl-padding-5 hp-bgc-blue dev-color-white">
+                  <p>
+                      Desciption ici
+                      <span>Lieu - Date</span>
+                  </p>
+              </div>
+          </div>
+          <div class="sl-display-container mySlides sl-animate-opacity">
+              <img src="assets/media/contents/galery/3+.png" style="width:100%">
+              <div class="sl-display-bottomleft align-center margin-top-lg sl-container sl-padding-5 hp-bgc-blue dev-color-white">
+                  <p>
+                      Equipe dirigente lors de la nouvelle année
+                      <span>Ouagadougou - 31 Décembre 2016</span>
+                  <p>
+              </div>
+          </div>
 
-            <div class="sl-display-container mySlides sl-animate-opacity">
-                <table class="daf-table hp-table">
-                    <tr><td></td></tr>
-                    <tr>
-                        <td class="text-size-lg dev-color-grey align-center">
-                            <i class="fa fa-quote-left fa-rotate-left"></i>&nbsp;
-                            J’ai déjà eu l’occasion de le dire maintes fois ici mais il est d’une importance capitale pour vous de définir un objectif AVANT toute lecture.
-                            <span class="blocked margin-top-zx dev-color-white text-size-zx">
-                                Nom et prénom (s) de l'auteur du témoignage
-                            </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                    </tr>
-                </table>
-            </div>
-
-            <div class="sl-display-container mySlides sl-animate-opacity">
-                <table class="daf-table hp-table">
-                    <tr><td></td></tr>
-                    <tr>
-                        <td class="text-size-lg dev-color-grey align-center">
-                            <i class="fa fa-quote-left fa-rotate-left"></i>&nbsp;
-                            Texte du témoignage numéro trois (3).
-                            <span class="blocked margin-top-zx dev-color-white text-size-zx">
-                                Nom et prénom (s) de l'auteur du témoignage
-                            </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                    </tr>
-                </table>
-            </div>
-
-            <div class="sl-center sl-section sl-large sl-text-white sl-display-bottomleft" style="width:100%">
-                <span class="sl-badge slide sl-hover-ivp" onclick="currentDiv(1)"></span>
-                <span class="sl-badge slide sl-hover-ivp" onclick="currentDiv(2)"></span>
-                <span class="sl-badge slide sl-hover-ivp" onclick="currentDiv(3)"></span>
-            </div>
-        </div>
+          <div class="sl-section sl-large sl-text-white sl-display-bottomleft align-right" style="width:100%">
+              <span class="sl-badge slide sl-hover-hp" onclick="currentDiv(1)"></span>
+              <span class="sl-badge slide sl-hover-hp" onclick="currentDiv(2)"></span>
+              <span class="sl-badge slide sl-hover-hp margin-right-zx" onclick="currentDiv(3)"></span>
+          </div>
+      </div>
 
     </div>
 
