@@ -25,14 +25,6 @@ $(document).ready(function(){
     showDivs(slideIndex);
     carousel();
 
-    function plusDivs(n) {
-        showDivs(slideIndex += n);
-    }
-
-    function currentDiv(n) {
-        showDivs(slideIndex = n);
-    }
-
     function showDivs(n) {
         var i;
         var x = document.getElementsByClassName("mySlides");
@@ -46,11 +38,11 @@ $(document).ready(function(){
         }
 
         for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" sl-ivp", "");
+            dots[i].className = dots[i].className.replace(" sl-hp", "");
         }
 
         x[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " sl-ivp";
+        dots[slideIndex-1].className += " sl-hp";
     }
 
     function carousel() {
@@ -60,7 +52,7 @@ $(document).ready(function(){
 
         for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";
-            dots[i].className = dots[i].className.replace(" sl-ivp", "");
+            dots[i].className = dots[i].className.replace(" sl-hp", "");
         }
 
         myIndex++;
@@ -69,7 +61,7 @@ $(document).ready(function(){
 
         x[myIndex-1].style.display = "block";
 
-        dots[myIndex-1].className += " sl-ivp";
+        dots[myIndex-1].className += " sl-hp";
 
         setTimeout(carousel, 7000);
     }
