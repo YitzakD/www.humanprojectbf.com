@@ -46,7 +46,7 @@
                                              required="required" />
                                   </td>
                                   <td width="10%" valign="top">
-                                      <button class="btn btn-succes dev-padding" style="border-radius: 0 3px 3px 0!important">
+                                      <button class="btn btn-succes dev-padding" style="border-radius: 0!important">
                                           <i class="fa fa-paper-plane fa-fw"></i>
                                       </button>
                                   </td>
