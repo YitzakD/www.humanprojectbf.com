@@ -1,7 +1,7 @@
 .hp-block {
     width: 80%!important;
 }
-.daf-table td {
+.hp-table td {
     height: 100px!important;
     background-color: transparent!important;
     border: none!important;
@@ -118,7 +118,7 @@
     width: 10%;
 }
 
-/**/
+/*------ HOME       About galery -----*/
 .hp-test-slide {
     width: 100%!important;
     height: 300px!important;
@@ -134,7 +134,7 @@
     padding: 25px 0;
 }
 
-/**/
+/*------ HOME       About Patners -----*/
 .hp-partners-div {
     width: 100%;
     height: auto;
@@ -152,7 +152,7 @@
     margin-right: 0;
 }
 
-/**/
+/*------ HOME       About Footer -----*/
 .hp-footer-div {
     width: 100%!important;
     height: auto;
