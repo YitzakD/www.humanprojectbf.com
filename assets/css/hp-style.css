@@ -34,6 +34,21 @@
     border: 1px solid #CCCCCC;
 }
 
+.hp-bgc-blue {
+    background: #0096DB;
+}
+.hp-bgc-green {
+    background: #39B54A;
+}
+
+.sl-display-container div p {
+    font-size: 15px;
+}
+.sl-display-container div p span{
+    display: block;
+    font-size: 12px;
+}
+
 /*----- HOME    About category part -----*/
 .c-div-block .c-span-floted {
     width: 165px;
@@ -119,19 +134,9 @@
 }
 
 /*------ HOME       About galery -----*/
-.hp-test-slide {
+.hp-gal-slide {
     width: 100%!important;
     height: 300px!important;
-    background-image: url("../media/contents/testimonials/1+.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.hp-started-div {
-    width: 100%!important;
-    height: 50px!important;
-    background: #0096DB;
-    color: #FFFFFF;
-    padding: 25px 0;
 }
 
 /*------ HOME       About Patners -----*/
