@@ -8,13 +8,7 @@
 
         <div class="hp-right-joboffer-div dev-color-grey bordered">
 
-            <img />
-
-            <div class="align-center">
-                <a href="#" class="btn-hp-primary text-unerderline text-size-zx text-uppercase">
-                    Télécharger la plaquette
-                </a>
-            </div>
+            <a href="#"><img src="assets/media/contents/Plaquette.png" class="" style="width:100%!important" /></a>
 
         </div>
 
@@ -26,7 +20,7 @@
             <span>Stats de CV</span>
         </div>
 
-        <div class="hp-right-joboffer-div dev-color-grey bordered">
+        <div class="hp-right-joboffer-stat-div dev-color-grey bordered">
 
             <div class="hp-stat-cv">
                 <span class="text-size-zx"><?= "Informatique"; ?></span>
