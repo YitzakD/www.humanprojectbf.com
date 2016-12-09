@@ -8,6 +8,7 @@ $menu = [
     'home' => ['fr' => 'Accueil', 'en' => 'Home'],
     'pres' => ['fr' => 'Présentation', 'en' => 'Presentation'],
     'about' => ['fr' => 'A propos', 'en' => 'About us'],
+    'showroom' => ['fr' => 'Galerie', 'en' => 'Galery'],
 
     'features' => ['fr' => 'Fonctionnalités', 'en' => 'Features'],
     'categ' => ['fr' => 'Catégories', 'en' => 'Categories'],

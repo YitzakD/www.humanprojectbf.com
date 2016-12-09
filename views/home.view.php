@@ -33,6 +33,4 @@
         <?php include "partials/home/_browse.patners.php"; ?>
     </div>
 
-    <div class="clearer margin-top-2x"></div>
-
 <?php include("partials/_footer.php"); ?>

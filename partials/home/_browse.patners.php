@@ -1,11 +1,11 @@
 <div class="hp-block no-margin">
 
-    <div class="dev-div hp-c-div margin-bottoms-zx">
+    <div class="dev-div hp-c-div">
 
-        <div class="blocked text-size-2x margin-bottoms-zx-plus">Ils nous font confiances</div>
+        <div class="blocked text-size-2x margin-bottoms-zx-plus dev-color-blue">Ils nous font confiances</div>
 
         <div class="hp-partners-div">
-            
+
             <div class="hp-patners-block"><img class="img-1x" src="assets/media/contents/patners/logo-1.png"></div>
             <div class="hp-patners-block"><img class="img-1x" src="assets/media/contents/patners/logo-2.png"></div>
             <div class="hp-patners-block"><img class="img-1x" src="assets/media/contents/patners/logo-3.png"></div>
@@ -18,7 +18,5 @@
         </div>
 
     </div>
-
-    <div class="clearer divider-grey"></div>
 
 </div>

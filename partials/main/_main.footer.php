@@ -9,8 +9,8 @@
                     <?= $title = $menu['about'][$_SESSION['locale']]; ?>
                 </div>
                 <ul class="hp-footer-ul">
-                    <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['home'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['pres'][$_SESSION['locale']]; ?></a></li>
+                    <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['showroom'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['service'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['activity'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['userspace'][$_SESSION['locale']]; ?></a></li>
@@ -24,7 +24,6 @@
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['categ'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['joboffer'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['stats'][$_SESSION['locale']]; ?></a></li>
-                    <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['testimonials'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['booklet'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['newsp'][$_SESSION['locale']]; ?></a></li>
                 </ul>
@@ -36,8 +35,26 @@
                 <ul class="hp-footer-ul">
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['contactus'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['career'][$_SESSION['locale']]; ?></a></li>
-                    <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['faq'][$_SESSION['locale']]; ?></a></li>
-                </ul>
+                    <li>
+                      <form method="post" action="#" class="form-group">
+                          <table class="hp-footer-table">
+                              <tr>
+                                  <td width="90%">
+                                      <input type="email" name="newsletter_value"
+                                             class="daf-form-ctrl" style="width: 94%!important; padding: 5px 10px!important"
+                                             placeholder="Inscrivez-vous à la newsletter" value="<?= get_input('newsletter_value'); ?>"
+                                             required="required" />
+                                  </td>
+                                  <td width="10%" valign="top">
+                                      <button class="btn btn-succes dev-padding" style="border-radius: 0 3px 3px 0!important">
+                                          <i class="fa fa-paper-plane fa-fw"></i>
+                                      </button>
+                                  </td>
+                              </tr>
+                          </table>
+                      </form>
+                  </li>
+              </ul>
             </div>
 
         </div>
