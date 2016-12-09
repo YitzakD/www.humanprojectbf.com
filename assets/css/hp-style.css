@@ -1,6 +1,14 @@
 .hp-block {
     width: 80%!important;
 }
+.input-grp button {
+    display: inline!important;
+    margin: 0;
+}
+.input-grp .daf-form-ctrl {
+    display: inline!important;
+    margin: 0;
+}
 .hp-table td {
     height: 100px!important;
     background-color: transparent!important;
@@ -8,6 +16,13 @@
 }
 .hp-table {
     font-weight: lighter;
+    cellspading: 0;
+    cellspacing: 0;
+}
+table.hp-footer-table {
+    width: 100% !important;
+    cellspading: 0;
+    cellspacing: 0;
 }
 .hp-table:last-child td {
     height: 85px!important;
