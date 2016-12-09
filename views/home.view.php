@@ -19,7 +19,7 @@
         <div class="hp-block no-margin">
             <div class="dev-col-min-big float-left">
               <?php include "partials/home/_browse.jobs-left.php"; ?>
-              <?php include "partials/home/_browse.testimonials.php"; ?>
+              <?php include "partials/home/_browse.galery.php"; ?>
             </div>
             <div class="dev-col-max-small float-right">
               <?php include "partials/home/_browse.jobs-right.php"; ?>
