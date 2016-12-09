@@ -97,7 +97,10 @@
 }
 
 .hp-right-joboffer-div {
-    padding: 25px 0;
+    padding: 0;
+}
+.hp-right-joboffer-stat-div {
+    padding: 0 0 15px 0;
 }
 .hp-stat-cv {
     display: block;
