@@ -23,15 +23,32 @@
             </li>
 
             <li>
-                <a href="#" <?= $page_actif === 'about' ? 'class="live"' : '' ?>>
-                    <?= $menu['about'][$_SESSION['locale']]; ?>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;
+                <a href="#" <?= $page_actif === 'service' ? 'class="live"' : '' ?>>
+                    <?= $menu['nav-service'][$_SESSION['locale']]; ?>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;
                 </a>
                 <ul class="menu-dropDown">
                     <li>
-                        <a href="#"><?= $menu['activity'][$_SESSION['locale']]; ?></a>
+                        <a href="#"><?= $menu['joboffer'][$_SESSION['locale']]; ?></a>
                     </li>
                     <li>
-                        <a href="#"><?= $menu['service'][$_SESSION['locale']]; ?></a>
+                        <a href="#"><?= $menu['formations'][$_SESSION['locale']]; ?></a>
+                    </li>
+                    <li>
+                        <a href="#"><?= $menu['resumes'][$_SESSION['locale']]; ?></a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#" <?= $page_actif === 'galery' ? 'class="live"' : '' ?>>
+                    <?= $menu['showroom'][$_SESSION['locale']]; ?>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;
+                </a>
+                <ul class="menu-dropDown">
+                    <li>
+                        <a href="#"><?= $menu['picts'][$_SESSION['locale']]; ?></a>
+                    </li>
+                    <li>
+                        <a href="#"><?= $menu['videos'][$_SESSION['locale']]; ?></a>
                     </li>
                 </ul>
             </li>

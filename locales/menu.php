@@ -14,13 +14,17 @@ $menu = [
     'categ' => ['fr' => 'Catégories', 'en' => 'Categories'],
     'joboffer' => ['fr' => 'Offre d\'emploi', 'en' => 'Job offer'],
     'stats' => ['fr' => 'Sats de CV', 'en' => 'Resume stats'],
-    'testimonials' => ['fr' => 'Témoignages', 'en' => 'Testimonials'],
+    'resumes' => ['fr' => 'CVthèque', 'en' => 'CVthèque'],
     'newsp' => ['fr' => 'Journal', 'en' => 'Newspaper'],
     'booklet' => ['fr' => 'Plaquette Human Project', 'en' => 'Human Project booklet'],
     'career' => ['fr' => 'Carrière', 'en' => 'Career'],
+    'videos' => ['fr' => 'Vidéos', 'en' => 'Movies'],
+    'picts' => ['fr' => 'Photos', 'en' => 'Pictures'],
 
     'activity' => ['fr' => 'Nos activités', 'en' => 'Our activities'],
     'service' => ['fr' => 'Nos services', 'en' => 'Our services'],
+    'nav-service' => ['fr' => 'Services', 'en' => 'Services'],
+    'formations' => ['fr' => 'Formations', 'en' => 'Learnings'],
 
     'imprim' => ['fr' => 'Imprimés', 'en' => 'Printed'],
     'plaquette' => ['fr' => 'Plaquette', 'en' => 'Booklet'],
@@ -28,7 +32,6 @@ $menu = [
 
     'contact' => ['fr' => 'Contacts', 'en' => 'Contacts'],
     'contactus' => ['fr' => 'Nous contacter', 'en' => 'Contact us'],
-    'faq' => ['fr' => 'FAQ', 'en' => 'FAQ'],
     'mentioned' => ['fr' => 'Mentions légales', 'en' => 'Legal notice'],
 
     'user' => ['fr' => 'Utilisateur', 'en' => 'User'],
