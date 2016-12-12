@@ -75,7 +75,6 @@ div::-webkit-scrollbar-thumb:hover {
 .dev-submenu {
     width: 100%;
     height: 30px;
-    background-color: #ECF0F1;
     position: fixed;
     top: 68px;
     z-index: 10;
@@ -820,6 +819,9 @@ div::-webkit-scrollbar-thumb:hover {
 }
 .dev-bgc-white {
     background: #FFFFFF!important;
+}
+.dev-bgc-blue {
+    background: #0096DB!important;
 }
 .dev-bgc-green-dev {
     background: #39B54A;

@@ -3,7 +3,7 @@
 
 <div class="dev-wrap">
 
-    <div class="dev-col-max-big-plus no-margin relatived">
+    <div class="dev-submenu hp-submenu blocked float-left">
         <?php include "partials/aboutus/_submenu.php"; ?>
     </div>
 

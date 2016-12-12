@@ -1,5 +1,6 @@
 .hp-big-block {
     width: 100%!important;
+    height: 1000px;
 }
 .hp-block {
     width: 80%!important;
@@ -173,6 +174,12 @@ table.hp-footer-table {
 }
 .hp-partners-div > .hp-patners-block:last-child{
     margin-right: 0;
+}
+
+
+.hp-submenu {
+    background-color: #0096DB!important;
+    top: 58px!important;
 }
 
 /*------ HOME       About Footer -----*/
