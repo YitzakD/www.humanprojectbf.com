@@ -9,7 +9,7 @@
                     <?= $title = $menu['about'][$_SESSION['locale']]; ?>
                 </div>
                 <ul class="hp-footer-ul">
-                    <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['pres'][$_SESSION['locale']]; ?></a></li>
+                    <li class="margin-bottoms-zx"><a href="aboutus.php"><?= $title = $menu['pres'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['showroom'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['service'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['stats'][$_SESSION['locale']]; ?></a></li>

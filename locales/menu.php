@@ -10,6 +10,8 @@ $menu = [
     'about' => ['fr' => 'A propos', 'en' => 'About us'],
     'showroom' => ['fr' => 'Galerie', 'en' => 'Galery'],
 
+    'mis' => ['fr' => 'Missions', 'en' => 'Missions'],
+    'goals' => ['fr' => 'Objectifs', 'en' => 'Goals'],
     'features' => ['fr' => 'Fonctionnalités', 'en' => 'Features'],
     'categ' => ['fr' => 'Catégories', 'en' => 'Categories'],
     'joboffer' => ['fr' => 'Offre d\'emploi', 'en' => 'Job offer'],

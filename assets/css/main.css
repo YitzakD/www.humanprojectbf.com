@@ -215,19 +215,17 @@ div::-webkit-scrollbar-thumb:hover {
     box-shadow: 0px 5px 7px -3px rgba(24, 30, 33, 0.3);
 }
 .a-submenu a {
-    font-family: Aaargh, 'sans-serif';
-    font-style: italic;
     padding: 0 18px;
     text-decoration: none;
     font-size: 13px;
     line-height: 30px;
     transition: all .1s;
-    border-left: 1px #444444 solid;
-    color: #444444;
+    border-left: 1px #ECF0F1 solid;
+    color: #ECF0F1;
 }
-
 .a-submenu a:hover {
-    color: #9B59B6;
+    color: #ECF0F1;
+    text-decoration: underline;
 }
 .a-submenu a:first-child {
     border-left: none;
