@@ -6,7 +6,7 @@
 
         <div class="hp-inner-sect-middle-div no-margin dev-color-white">
 
-            //
+            <div class="dev-div">PRESENETATION | Texte ici</div>
 
         </div>
 

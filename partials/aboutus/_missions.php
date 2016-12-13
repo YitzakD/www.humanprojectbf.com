@@ -6,7 +6,8 @@
 
       <div class="hp-inner-sect-middle-div no-margin">
 
-          //
+        <div class="dev-col-max-small margin-right-zx">Image d'illustration ici</div>
+        <div class="dev-col-min-big">MISSION | Texte ici</div>
 
       </div>
 
