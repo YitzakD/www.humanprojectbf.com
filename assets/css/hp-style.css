@@ -176,13 +176,27 @@ table.hp-footer-table {
     margin-right: 0;
 }
 
-
+/*------ ABOUT US       About about us page & div style -----*/
 .hp-submenu {
     background-color: #0096DB!important;
     top: 58px!important;
 }
+.hp-inner-block-sect {
+    width: 80%!important;
+    height: 100%!important;
+}
+.hp-inner-sect-top-div,
+.hp-inner-sect-bottom-div {
+    height: 25%;
+    width: 100%;
+}
+.hp-inner-sect-middle-div {
+    height: 50%;
+    width: 100%;
+}
 
-/*------ HOME       About Footer -----*/
+
+/*------ GENERAL       About Footer -----*/
 .hp-footer-div {
     width: 100%!important;
     height: auto;
