@@ -17,7 +17,7 @@
             </li>
 
             <li>
-                <a href="#" <?= $page_actif === 'pres' ? 'class="live"' : '' ?>>
+                <a href="aboutus.php" <?= $page_actif === 'pres' ? 'class="live"' : '' ?>>
                     <?= $menu['pres'][$_SESSION['locale']]; ?>
                 </a>
             </li>
