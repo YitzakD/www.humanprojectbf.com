@@ -23,21 +23,21 @@
             </li>
 
             <li>
-                <a href="#" <?= $page_actif === 'service' ? 'class="live"' : '' ?>>
+                <a href="services.php" <?= $page_actif === 'service' ? 'class="live"' : '' ?>>
                     <?= $menu['nav-service'][$_SESSION['locale']]; ?>&nbsp;&nbsp;<i class="fa fa-angle-down"></i>&nbsp;
                 </a>
                 <ul class="menu-dropDown">
                     <li>
-                        <a href="#"><?= $menu['joboffer'][$_SESSION['locale']]; ?></a>
+                        <a href="joboffer.php"><?= $menu['joboffer'][$_SESSION['locale']]; ?></a>
                     </li>
                     <li>
-                        <a href="#"><?= $menu['nav-service'][$_SESSION['locale']]; ?></a>
+                        <a href="services.php"><?= $menu['nav-service'][$_SESSION['locale']]; ?></a>
                     </li>
                     <li>
-                        <a href="#"><?= $menu['activity'][$_SESSION['locale']]; ?></a>
+                        <a href="activiies.php"><?= $menu['activity'][$_SESSION['locale']]; ?></a>
                     </li>
                     <li>
-                        <a href="#"><?= $menu['resumes'][$_SESSION['locale']]; ?></a>
+                        <a href="resumes.php"><?= $menu['resumes'][$_SESSION['locale']]; ?></a>
                     </li>
                 </ul>
             </li>
