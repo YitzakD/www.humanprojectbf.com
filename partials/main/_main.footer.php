@@ -11,7 +11,6 @@
                 <ul class="hp-footer-ul">
                     <li class="margin-bottoms-zx"><a href="aboutus.php"><?= $title = $menu['pres'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['showroom'][$_SESSION['locale']]; ?></a></li>
-                    <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['service'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['stats'][$_SESSION['locale']]; ?></a></li>
                 </ul>
             </div>
@@ -22,6 +21,7 @@
                 <ul class="hp-footer-ul">
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['categ'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['joboffer'][$_SESSION['locale']]; ?></a></li>
+                    <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['service'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['resumes'][$_SESSION['locale']]; ?></a></li>
                     <li class="margin-bottoms-zx"><a href="#"><?= $title = $menu['userspace'][$_SESSION['locale']]; ?></a></li>
                 </ul>
