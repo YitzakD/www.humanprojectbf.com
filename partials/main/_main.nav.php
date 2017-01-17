@@ -31,7 +31,10 @@
                         <a href="#"><?= $menu['joboffer'][$_SESSION['locale']]; ?></a>
                     </li>
                     <li>
-                        <a href="#"><?= $menu['serviceoffer'][$_SESSION['locale']]; ?></a>
+                        <a href="#"><?= $menu['nav-service'][$_SESSION['locale']]; ?></a>
+                    </li>
+                    <li>
+                        <a href="#"><?= $menu['activity'][$_SESSION['locale']]; ?></a>
                     </li>
                     <li>
                         <a href="#"><?= $menu['resumes'][$_SESSION['locale']]; ?></a>
