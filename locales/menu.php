@@ -23,6 +23,7 @@ $menu = [
 
     'activity' => ['fr' => 'Nos activités', 'en' => 'Our activities'],
     'service' => ['fr' => 'Nos services', 'en' => 'Our services'],
+    'serviceoffer' => ['fr' => 'Offre services', 'en' => 'Services offer'],
     'nav-service' => ['fr' => 'Services', 'en' => 'Services'],
     'formations' => ['fr' => 'Formations', 'en' => 'Learnings'],
 
